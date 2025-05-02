@@ -4,7 +4,7 @@ This project develops and compares multiple machine learning models to predict i
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Build interpretable and accurate models to classify individuals as **High Risk** or **Low Risk** of heart attacks.
 - Handle **class imbalance** effectively and improve prediction recall for the minority (high-risk) class.
@@ -13,7 +13,7 @@ This project develops and compares multiple machine learning models to predict i
 
 ---
 
-## 🧠 Models Developed
+## Models Developed
 
 We implemented and tuned **three core classifiers**:
 
@@ -30,7 +30,7 @@ Each was trained in baseline form and then enhanced through:
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source**: Kaggle – "Heart Attack Risk Prediction Dataset"
 - **Samples**: 8,763 patient records
@@ -42,7 +42,7 @@ Each was trained in baseline form and then enhanced through:
 
 ---
 
-## 🔧 Data Preprocessing
+## Data Preprocessing
 
 - Dropped non-predictive IDs
 - Engineered blood pressure categories (`Normal`, `Elevated`, `High Stage 1`, `High Stage 2`)
@@ -51,9 +51,9 @@ Each was trained in baseline form and then enhanced through:
 
 ---
 
-## 📈 Model Performance Summary
+## Model Performance Summary
 
-### 🟨 Decision Tree
+### Decision Tree
 
 | Model Variant                  | Train Accuracy | Test Accuracy | High Risk Recall | Notes                                      |
 |-------------------------------|----------------|---------------|------------------|--------------------------------------------|
@@ -66,7 +66,7 @@ Each was trained in baseline form and then enhanced through:
 
 ---
 
-### 🌲 Random Forest
+### Random Forest
 
 | Model Variant                  | Train Accuracy | Test Accuracy | High Risk Recall | Notes                                 |
 |-------------------------------|----------------|---------------|------------------|---------------------------------------|
@@ -76,7 +76,7 @@ Each was trained in baseline form and then enhanced through:
 
 ---
 
-### 📉 Logistic Regression
+### Logistic Regression
 
 | Model Variant                  | Train Accuracy | Test Accuracy | High Risk Recall | Weighted F1 | Notes                                  |
 |-------------------------------|----------------|---------------|------------------|-------------|----------------------------------------|
@@ -102,7 +102,7 @@ This suggests geography plays a dominant role in predicting heart attack risk. F
 
 ---
 
-## 📌 Recommendations
+## Recommendations
 
 - **For Healthcare Providers**: Focus outreach and preventive care in geographic regions with high predicted risk, particularly in under-resourced areas like parts of Nigeria and South Africa.
 - **For Individuals**: Promote early lifestyle interventions — improved sleep, diet, reduced alcohol, and smoking cessation — as flagged by model insights.
@@ -110,7 +110,7 @@ This suggests geography plays a dominant role in predicting heart attack risk. F
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**: pandas, scikit-learn, imbalanced-learn (SMOTE), matplotlib, seaborn
 - **Statistical Methods**: Logistic Regression, Decision Trees, Random Forest, GridSearchCV, L1 Regularization
@@ -119,13 +119,5 @@ This suggests geography plays a dominant role in predicting heart attack risk. F
 
 ---
 
-## 📬 Contact
-
-**Sorasak Joshi**  
-Graduate Student – Business Analytics, UC Irvine  
-📧 sorasakj@uci.edu  
-🔗 [LinkedIn](https://www.linkedin.com/in/sorasakjoshi)
-
----
 
 > Developed for BANA 212: Data Programming for Analytics under Prof. Tingting Nian at UC Irvine. This project demonstrates the use of supervised machine learning, feature engineering, and statistical evaluation for risk prediction in public health.
